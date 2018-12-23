@@ -128,6 +128,7 @@ public class ActivityHistory {
                                     break;
                                 case CALORIES_FIELD_NAME:
                                     map.putDouble(fieldName, dataPoint.getValue(field).asFloat());
+                                    break;
                                 default:
                                     Log.w(TAG, "don't specified and handled: " + fieldName);
                             }
